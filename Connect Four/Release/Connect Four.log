@@ -1,0 +1,43 @@
+﻿生成启动时间为 2012/12/9 下午 6:51:54。
+     1>项目“E:\我的文档\我的程序\C++项目\Connect Four\Connect Four\Connect Four.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Connect Four.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ConnectFour.cpp main.cpp
+         ConnectFour.cpp
+     1>ConnectFour.cpp(86): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>ConnectFour.cpp(407): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+     1>ConnectFour.cpp(412): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+         main.cpp
+     1>main.cpp(29): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>main.cpp(29): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>main.cpp(29): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>main.cpp(263): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(264): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(265): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(266): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(267): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(411): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(412): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(413): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(414): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+     1>main.cpp(415): warning C4244: “参数”: 从“const float”转换到“DWORD”，可能丢失数据
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\我的文档\我的程序\C++项目\Connect Four\Release\Connect Four.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Connect Four.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\我的文档\我的程序\C++项目\Connect Four\Release\Connect Four.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\我的文档\我的程序\C++项目\Connect Four\Release\Connect Four.lib" /MACHINE:X86 Release\ConnectFour.obj
+         Release\DisplayError.obj
+         Release\DisplayHelp.obj
+         Release\main.obj
+         正在生成代码
+     1>e:\我的文档\我的程序\c++项目\connect four\connect four\connectfour.cpp(190): warning C4715: “ConnectFour::GetTurn”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         Connect Four.vcxproj -> E:\我的文档\我的程序\C++项目\Connect Four\Release\Connect Four.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\我的文档\我的程序\C++项目\Connect Four\Release\Connect Four.exe;#1" /manifest "Release\Connect Four.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Connect Four.unsuccessfulbuild”。
+         正在对“Release\Connect Four.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\我的文档\我的程序\C++项目\Connect Four\Connect Four\Connect Four.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.95
